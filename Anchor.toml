@@ -1,0 +1,23 @@
+[programs.localnet]
+olympuspro_sol = "61ZYzDJWf1KXdU6aEm6JEyE1z5Vjp3KHRSiKw9GAZaXp"
+payout_token = "GA2QecYR4McfJSLCSHTmLp8vEekUjoi1wsP7zVpVQRV"
+principal_token = "AohAhRjYsMqba6rJuf5sJcXnWSEBgd6VUMjGxLNWBvN1"
+
+[programs.devnet]
+olympuspro_sol = "61ZYzDJWf1KXdU6aEm6JEyE1z5Vjp3KHRSiKw9GAZaXp"
+payout_token = "GA2QecYR4McfJSLCSHTmLp8vEekUjoi1wsP7zVpVQRV"
+principal_token = "AohAhRjYsMqba6rJuf5sJcXnWSEBgd6VUMjGxLNWBvN1"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+init = "yarn run ts-node scripts/init.ts"
+make_test_treasury = "yarn run ts-node scripts/make_treasury.ts"
+airdrop_test_env = "yarn run ts-node scripts/airdrop_test_env.ts"
+create_bond = "yarn run ts-node scripts/create_bond.ts"

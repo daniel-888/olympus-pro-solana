@@ -1,0 +1,17 @@
+{
+  "tokenAMint": "5d2JjUdohYFDX2fUWFfkopK6vRs7KqnHRvMH7jiuG3QZ",
+  "tokenBMint": "2rTvnitfufynpzwzVfGs81BybHEjkrQoXCsDwy9PVCTj",
+  "partnerTokenA": "7pSjpxFugmD7u5Tvy3z51QMWFEPd193CMdaDxxhnnJnk",
+  "partnerTokenB": "EzPHpeF7Zq8vpxfbUTiGVxQxoxwhAUip48MK9nqVhwfE",
+  "olympusTokenA": "EeP2LHBt8ctCmYbjb2xELevEMmz7WDXwcFRyhXuUkPqQ",
+  "olympusTokenB": "CGUKssewj8oorNFCLNz5ZPaB6FJsH15J227NmYMro2Be",
+  "userTokenA": "Gk6M4eiqqpKaHsNGyugjgBTA6QKKugbDSZnXeqziNP1C",
+  "userTokenB": "AEF5g7FTXxVDRKSBs5y2Hr6HLzkpCdUmt945C5s2vnCW",
+  "treasury": "3yP9aeJfrLAz2ZsRqjTskppXCazzTSnMVnaUgTZ7zS1e",
+  "bonder": "5HNUwdpQnfCe18wcwdBS998GxKTVTQbLbdVbneR8sU1Y",
+  "bond": "9qYrUCmwgvzqkqkzvLEko75iKRreTdcBoiSuPNy9cfWD",
+  "userAuthorityPublicKey": "Dbc2kLwit6GD5ujDK7krtuhntrsqxURMacmBsfSSJLVD",
+  "userAuthorityPrivateKey": "[88,173,1,229,59,107,248,64,195,72,231,185,197,6,158,164,44,54,115,4,186,56,17,143,15,104,250,109,62,12,190,255,187,41,153,108,173,35,70,83,145,185,115,24,207,153,248,55,173,0,145,18,87,95,73,153,25,213,156,14,23,117,16,104]",
+  "partnerAuthorityPublicKey": "5W1M4tvcuVdtoCQLSZghairUB94LnM9x6tfyexT4g6md",
+  "partnerAuthorityPrivateKey": "[141,211,192,90,35,113,150,108,79,61,98,61,52,214,250,95,41,68,149,227,174,101,3,149,198,64,140,205,16,37,72,38,66,220,251,124,248,108,6,44,85,26,49,135,195,55,71,52,167,211,57,54,171,212,213,82,124,114,163,232,251,15,117,152]"
+}

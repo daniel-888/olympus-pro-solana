@@ -1,0 +1,33 @@
+[package]
+name = "olympuspro-sol"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "olympuspro_sol"
+doctest = false
+
+[features]
+no-entrypoint = []
+no-idl = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = {version= "0.22.1", features = ["init-if-needed"]}
+anchor-spl = {version = "0.22.1"}
+spl-token = {version = "3.3.0", features = ["no-entrypoint"]}
+spl-associated-token-account = {version = "1.0.3", features = ["no-entrypoint"]}
+metaplex-token-metadata = { version="0.0.1", features = [ "no-entrypoint" ] }
+rust_decimal = "1.18"
+rust_decimal_macros = "1.18"
+
+[dev-dependencies.cargo-husky]
+version = "1"
+features = ["run-cargo-fmt"]
+
+[profile.dev]
+opt-level = 1
+overflow-checks = true
